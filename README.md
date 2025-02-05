@@ -1,0 +1,2 @@
+# Scala Type Mismatch Error with Option
+This example demonstrates a type mismatch error that can occur when using the Option type in Scala with a generic class. The error arises when attempting to print the value of an Option[Int] directly using println().  The solution involves pattern matching to handle the Some and None cases separately.
